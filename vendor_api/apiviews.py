@@ -5,7 +5,7 @@ from .models import Vendor, PurchaseOrder, HistoricalPerformance
 from rest_framework.views import APIView
 from django.shortcuts import get_object_or_404
 import datetime
-from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
+from rest_framework.permissions import IsAuthenticated
 
 
 class VendorListAPI(APIView):
