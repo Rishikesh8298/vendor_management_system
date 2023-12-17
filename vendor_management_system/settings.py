@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'vendor_api',
     'user_app',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
@@ -102,4 +103,12 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.TokenAuthentication',
     ],
+}
+
+SWAGGER_SETTINGS = {
+    'SECURITY_DEFINITION': {
+        'Basic': {
+            'type': 'basic'
+        }
+    }
 }

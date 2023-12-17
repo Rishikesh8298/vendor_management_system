@@ -37,3 +37,7 @@ vendor.
 
 API Endpoints for HistoricalPerformance:
 ● GET /api/vendors/{vendor_id}/performance:
+
+Documentations for whole api
+swagger/
+re-doc/
