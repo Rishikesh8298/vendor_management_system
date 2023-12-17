@@ -40,4 +40,4 @@ API Endpoints for HistoricalPerformance:
 
 Documentations for whole api
 swagger/
-re-doc/
+redoc/
